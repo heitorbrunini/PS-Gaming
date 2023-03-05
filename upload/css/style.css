@@ -31,7 +31,7 @@ img {
 }
 /*----------------------------------------header-styles---------------------------------------*/
 #header {
-	background: url(../images/bg-transparent1.png) repeat;
+	background-image: linear-gradient(45deg, #484848, #141413);
 	margin: 0;
 	min-height: 60px;
 	padding: 0;
@@ -53,9 +53,8 @@ img {
 }
 #header div a img {
 	display: block;
-	margin: 0;
 	padding: 0;
-	width: auto;
+	max-width: auto;
 }
 #header div ul {
 	display: inline-block;
@@ -87,8 +86,9 @@ img {
 	width: auto;
 }
 #header div ul li a:hover {
-	background-color: #620031;
+	background-color: #030355;
 	color: #ffffff;
+	transition: all, 0.5s;
 }
 #header div ul li.selected a {
 	background-color: #000000;
@@ -126,7 +126,7 @@ img {
 	width: auto;
 }
 #header div ul li.menu ul li a {
-	background-color: #620031;
+	background-color: #030355;
 	color: #ffffff;
 	display: block;
 	font-family: Arial;
@@ -238,10 +238,12 @@ img.satellite {
 	position: relative;
 	width: 180px;
 	z-index: 55;
+	border-radius: 3px;
 }
 #body.home .header div a.more:hover {
-	background-color: #ab000b;
+	background-color: #09094f;
 	color: #ffffff;
+	transition: all, 0.5s;
 }
 #body.home .header div h3 {
 	background: url("../images/bg-transparent1.png") repeat;
@@ -298,6 +300,7 @@ img.satellite {
 #body.home .header div ul li a img:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
 	opacity: 0.7;
+	transition: all, 0.5s;
 }
 #body.home .body {
 	background-color: #630031;
@@ -350,6 +353,7 @@ img.satellite {
 }
 #body.home .body div p a:hover {
 	color: #a3a3a3;
+	transition: all, 0.5s;
 }
 #body.home .footer {
 	background-color: #000000;
@@ -473,6 +477,7 @@ img.satellite {
 #body.home .footer div ul li ul li a img:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
 	opacity: 0.7;
+	transition: all, 0.5s;
 }
 #body.home .footer div ul li ul li h1 {
 	color: #A3A3A3;
@@ -518,7 +523,8 @@ img.satellite {
 	width: 120px;
 }
 #body.home .footer div ul li ul li a.more:hover {
-	background-color: #620031;
+	background-color: #030355;
+	transition: all, 0.5s;
 }
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
@@ -584,9 +590,10 @@ img.satellite {
 }
 #body.about .header div p a:hover {
 	color: #a3a3a3;
+	transition: all, 0.5s;
 }
 #body.about .body {
-	background-color: #620031;
+	background-color: #030355;
 	margin: 0;
 	min-height: 253px;
 	overflow: hidden;
@@ -637,6 +644,7 @@ img.satellite {
 }
 #body.about .body div p a:hover {
 	color: #a3a3a3;
+	transition: all, 0.5s;
 }
 #body.about .body div img {
 	display: block;
@@ -696,6 +704,7 @@ img.satellite {
 }
 #body.about .footer div p a:hover {
 	color: #a3a3a3;
+	transition: all, 0.5s;
 }
 #body.about .footer div img {
 	float: left;
@@ -754,6 +763,7 @@ img.satellite {
 }
 #body.about .section div p a:hover {
 	color: #a3a3a3;
+	transition: all, 0.5s;
 }
 #body .header {
 	margin: 0 auto;
@@ -798,6 +808,7 @@ img.satellite {
 #body .header div ul li a img:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
 	opacity: 0.7;
+	transition: all, 0.5s;
 }
 #body .header div ul li div {
 	float: left;
@@ -845,6 +856,7 @@ img.satellite {
 }
 #body .header div ul li div p a:hover {
 	color: #a3a3a3;
+	transition: all, 0.5s;
 }
 #body .header div ul li div a.more {
 	background-color: #3c0f38;
@@ -863,7 +875,8 @@ img.satellite {
 	width: 120px;
 }
 #body .header div ul li div a.more:hover {
-	background-color: #620031;
+	background-color: #030355;
+	transition: all, 0.5s;
 }
 #body .header div img {
 	display: block;
@@ -908,6 +921,7 @@ img.satellite {
 }
 #body .header div p a:hover {
 	color: #a3a3a3;
+	transition: all, 0.5s;
 }
 #body .header div .article {
 	float: left;
@@ -952,6 +966,7 @@ img.satellite {
 #body .header div .article ul li a img:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
 	opacity: 0.7;
+	transition: all, 0.5s;
 }
 #body .header div .article ul li h1 {
 	color: #A3A3A3;
@@ -1005,6 +1020,7 @@ img.satellite {
 }
 #body .header div .article ul li p a:hover {
 	color: #a3a3a3;
+	transition: all, 0.5s;
 }
 #body .header div .article ul li a.more {
 	background-color: #3c0f38;
@@ -1023,7 +1039,8 @@ img.satellite {
 	width: 120px;
 }
 #body .header div .article ul li a.more:hover {
-	background-color: #620031;
+	background-color: #030355;
+	transition: all, 0.5s;
 }
 #body .header div .sidebar {
 	float: left;
@@ -1081,6 +1098,7 @@ img.satellite {
 #body .header div .sidebar ul li a img:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
 	opacity: 0.7;
+	transition: all, 0.5s;
 }
 #body .header div .sidebar ul li h2 {
 	color: #A3A3A3;
@@ -1144,6 +1162,7 @@ img.satellite {
 #body .header div .sidebar ul li ul li a img:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
 	opacity: 0.7;
+	transition: all, 0.5s;
 }
 #body .header div .sidebar ul li ul li h2 {
 	color: #A3A3A3;
@@ -1225,6 +1244,7 @@ img.satellite {
 }
 #body .header div .article p a:hover {
 	color: #a3a3a3;
+	transition: all, 0.5s;
 }
 #body .header .contact h2 {
 	color: #A3A3A3;
@@ -1297,7 +1317,8 @@ img.satellite {
 	width: 120px;
 }
 #body .header div form input#submit:hover {
-	background-color: #620031;
+	background-color: #030355;
+	transition: all, 0.5s;
 }
 /*----------------------------------------footer-styles---------------------------------------*/
 #footer {
